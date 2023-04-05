@@ -1,0 +1,62 @@
+
+.wrapper{
+              position: relative;
+              top:0;
+              position: sticky;
+
+            .container{
+                          position: relative;
+                          justify-content: space-between;
+                          font-weight: 500;
+                            .name{
+                                  font-size:1.5rem;
+                                  font-weight:600;
+                                     }
+                                    .menu{
+                                        @media (max-width:640px),(max-width:768px) {
+                                            flex-direction: column;
+                                            position: absolute;
+                                            gap:2rem;
+                                            right: 0.7rem;
+                                            top:3rem;
+                                            font-weight: 500;
+                                            list-style: none;
+                                            background-color: white;
+                                            border-radius: 1.5rem;
+                                            padding: 2rem;
+                                            align-items: start;
+                                            padding: 3rem;
+                                            box-shadow: 0px 4px 4px rgba(0,0,0,0.05);
+                                            z-index: 100;
+                                            transition: all 1s;
+
+
+                                        }
+                                        gap:1.5rem;
+                                        list-style: none;
+                                        cursor: pointer;
+                                        text-transform: uppercase;
+                                        
+                                            li{
+                                                 a{
+                                                     text-decoration: none;
+                                                          &:hover{
+                                                         color: #286F6C;
+                                                              }
+                                                            }
+
+                                                            
+                                                        }
+                                          }
+                            }
+}
+.menuIcon{
+    @media (min-width:640px),(min-width:768px) {
+        display: none;
+    }
+    position: absolute;
+    right: 0;
+    top:0;
+    cursor: pointer;
+}
+

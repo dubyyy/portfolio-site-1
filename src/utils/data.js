@@ -3,20 +3,20 @@ import { CiMobile1 } from "react-icons/ci";
 import { MdWorkspacesOutline } from "react-icons/md";
 export const projectExperience = [
   {
-    name: "Website Design",
-    projects: 76,
+    name: "Front-end dev",
+    projects: '14+ projects',
     icon: HiOutlineDesktopComputer,
     bg: "#286F6C",
   },
   {
-    name: "Mobile App Design",
-    projects: 63,
+    name: "Done for You",
+    projects: 'Building And Deployment',
     icon: CiMobile1,
     bg: "#EEC048",
   },
   {
-    name: "Brand Identity",
-    projects: 47,
+    name: "Done with you",
+    projects: 'Consultation',
     icon: MdWorkspacesOutline,
     bg: "#F26440",
   },
@@ -29,25 +29,25 @@ export const WhatDoIHelp = [
 
 export const workExp = [
   {
-    place: "Self-Employed, Brisbane",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Visual Designer",
+    place: "Immortal Minds Ltd",
+    tenure: "Aug 2020 - Sep 2020",
+    role: "Frontend developer",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+    "A Frontend developer Builds Frontend platoforms,this may include Portfolio Website,Bookmark landing page,Content Management system  . In short,i build your dream Project",
   },
   {
-    place: "New Man Services",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "UI/UX Designer",
+    place: "Open Source Projects",
+    tenure: "Aug 2014 - Sep 2020",
+    role: "Frontend developer",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "A Frontend developer Builds Frontend platoforms,this may include Portfolio Website,Bookmark landing page,Content Management system  . In short,i build your dream Project",
   },
   {
     place: "Global Solution",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Sr. Product Designer",
+    tenure: "Aug 2014 - Sep 2020",
+    role: "Front-end developer",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+    "A Frontend developer Builds Frontend platoforms,this may include Portfolio Website,Bookmark landing page,Content Management system  . In short,i build your dream Project",
   },
 ];
 
@@ -154,3 +154,5 @@ export const sliderSettings = {
     },
   ],
 };
+//export default projectExperience ;
+//export default  WhatDoIHelp;
