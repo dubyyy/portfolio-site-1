@@ -5,6 +5,7 @@ import Works from "./components/Works/Works.jsx";
 import css from "./styles/App.module.scss"
 const App = () => {
   //don't forget to add font link in index.html
+  //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
   return  <div className={`bg-primary ${css.container}`}>
           <Header/>
           <Hero/>
@@ -14,4 +15,4 @@ const App = () => {
                   </div>
 };
 
-export default App;
+export default App
