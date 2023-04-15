@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import headcss from "./Header.module.scss"
 import {motion} from 'framer-motion'
+import {FaAlignJustify} from 'react-icons/fa'
 import getMenuStyles from '../../utils/motion'
+import { IconContext } from 'react-icons/lib';
 function Header(){
              const [menuOpened,setmenuOpened]=useState(false);
              
@@ -32,9 +34,12 @@ function Header(){
                             <li><p>+234(0)90737027</p></li>
                        </ul>
                    </div>
+                   <IconContext.Provider value={{size:'25px'}}>
                    <div className={headcss.menuIcon} onClick={()=>{setmenuOpened(!menuOpened)}}>
-                    <p>CLICK</p>
+                    <FaAlignJustify/>
+                    
                    </div>
+                   </IconContext.Provider>
                 </motion.div>
               )
 }
